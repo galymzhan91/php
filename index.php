@@ -3,14 +3,16 @@ include ('db.php');
 ?> 
 <html>
 <head>
-
+	<meta http-equiv="content-type" content="text/html" />
+    <meta charset="UTF-8" />
 </head>
 <body>
 	<table style="border:solid 1px">
-		<tr> <td>Login Page</td> </tr>
+		<tr> <td><h4>Login Page</h4></td> </tr>
 		<tr> <td><input type="text" name="username" placeholder="username"></td> </tr>
 		<tr> <td><input type="text" name="password" placeholder="password"></td> </tr>
-		<tr> <td><input type="submit" name="button" value="ok"></td> <td><a href="register.php">register</a></td></tr>
+		<tr> <td><input type="submit" name="button" value="ok">   <a href="register.php">register</a></td></tr>
+
 	</table>
 </body>
 </html>
